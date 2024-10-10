@@ -7,12 +7,25 @@ ol, ul {
 border: 1px solid red;
 }
 
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
+    height: 800px;
     width: 100%;
-    max-width: 100%;
 }
 
 .cl1 {
     text-align: center;color: red;
 }
-
+a.link{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.ol1 {
+    border-color: green;
+}
