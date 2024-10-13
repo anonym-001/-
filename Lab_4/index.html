@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>Лаб.Робота №4</title>
+    <meta charset="UTF-8" />
+  </head>
+  <h1>Моя перша HTML-форма</h1>
+
+  <body>
+    <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя перша HTML-форма</title>
+    
+    </style>
+</head>
+<body>
+
+<h1>Моя перша HTML-форма</h1>
+
+<form action="https://httpbin.org/get" method="GET">
+<label for="name">Ім'я:</label>
+<input type="text" id="name" name="name"placeholder="Ім'я"><br><br>
+ <label for="dob">Дата народження:</label>
+ <input type="date" id="dob" name="dob"placeholder="дд.мм.рррр">
+ <br><br>
+<label for="email">Імейл:</label>
+<input type="email" id="email" name="email"placeholder="Імейл">
+<br><br>
+<label for="message">Повідомлення:</label>
+<textarea id="message"name="message"placeholder="Ваше повідомлення"></textarea>
+<br><br>
+<input type="submit"value="Надіслати">
+<input type="reset"value="Очистити">
+    </form>
+    <fieldset>
+      <legend>Ваші улюблені напої?</legend>
+      <label><input type="checkbox" name="drinks" value="Молоко"> Кава</label><br>
+      <label><input type="checkbox" name="drinks" value="Чай"> Чай</label><br>
+      <label><input type="checkbox" name="drinks" value="Сік"> Сік</label><br>
+      <label><input type="checkbox" name="drinks" value="Капучіно"> Вода</label>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Моя національність</legend>
+    <label><input type="radio" name="nationality" value="Українець"> Українець</label><br>
+    <label><input type="radio" name="nationality" value="Американець"> Поляк</label><br>
+    <label><input type="radio" name="nationality" value="Німець"> Німець</label>
+</fieldset>
+    <br><br>
+    <picture><source media="(max-width:468px)" srcset="https://picsum.photos/200/300?grayscale"></picture>
+    <img src="https://picsum.photos/200/300?grayscale" alt="">
+
+</body>
+</html>
+
+    </form>
+
+  </body>
+</html>
